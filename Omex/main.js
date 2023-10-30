@@ -77,9 +77,18 @@ function easeInOutCubic(t, b, c, d) {
 };
 // end footer/////////////////////////////////////////
 
+// disable right click ///////////////////////////////
+
+document.addEventListener('contextmenu', function (e) {
+
+  'use strict';
+
+  e.preventDefault();
+
+ alert('Right click is disable')
 
 
-
+});
 
 
 
