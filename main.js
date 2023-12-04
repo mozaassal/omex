@@ -94,16 +94,16 @@ function easeInOutCubic(t, b, c, d) {
 
 //disable right click ///////////////////////////////
 
-document.addEventListener('contextmenu', function (e) {
+// document.addEventListener('contextmenu', function (e) {
 
-  'use strict';
+//   'use strict';
 
-  e.preventDefault();
+//   e.preventDefault(); 
 
- alert('Right click is disable')
+//  alert('Right click is disable')
 
 
-});
+// });
 
 
 
